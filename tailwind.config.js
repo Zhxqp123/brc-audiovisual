@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        heading: ['Oswald', 'sans-serif'],
+      },
       colors: {
         background: '#0a0a0a',
         foreground: '#ffffff',
