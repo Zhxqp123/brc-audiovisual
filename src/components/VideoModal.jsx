@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 import { X } from "lucide-react";
 
-useEffect(() => {
-    // CORREÇÃO: Só trava o scroll se houver um projeto (vídeo) aberto
-    if (!project) return; 
-
+export default function VideoModal({ project, onClose }) {
+  useEffect(() => {
+    if (!project) return;
+    
     const onKey = (e) => e.key === "Escape" && onClose();
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
-    
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";

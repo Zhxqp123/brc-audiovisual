@@ -1,5 +1,9 @@
-export const projectFilters = ["TODOS", "INSTITUCIONAL", "REELS"];
+export const projectFilters = ["TODOS", "INSTITUCIONAL", "REELS", "SHORTS"];
 export const projects = [
-  { id: 1, title: "Institucional Coelho", category: "INSTITUCIONAL", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/ddd3de416_generated_3e93dc63.jpg", type: "horizontal" },
-  { id: 2, title: "Reels Dinâmico", category: "REELS", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/a389b307b_generated_5de80037.jpg", type: "vertical" }
+  { id: 1, title: "Oceano", category: "INSTITUCIONAL", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/ddd3de416_generated_3e93dc63.jpg", videoUrl: "https://www.youtube.com/watch?v=MjB816PZM3U", type: "horizontal" },
+  { id: 2, title: "Reels - Exemplo 1", category: "REELS", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/a389b307b_generated_5de80037.jpg", videoUrl: "https://www.youtube.com/watch?v=Zpn07BIVrKo", type: "vertical" },
+  { id: 3, title: "Reels - Exemplo 2", category: "REELS", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/30bca2bfa_generated_b1ebb888.jpg", videoUrl: "https://www.youtube.com/watch?v=2hNXApWyGeA", type: "vertical" },
+  { id: 4, title: "Institucional - Exemplo 2", category: "INSTITUCIONAL", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/deaa05dd8_generated_59d7cc64.jpg", videoUrl: "https://www.youtube.com/watch?v=8WaNaJ-6Q8c", type: "horizontal" },
+  { id: 5, title: "Institucional - Exemplo 3", category: "INSTITUCIONAL", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/010db288a_generated_ad839bc2.jpg", videoUrl: "https://www.youtube.com/watch?v=igxtXZjbDio", type: "horizontal" },
+  { id: 6, title: "Shorts - Exemplo", category: "SHORTS", thumbnail: "https://media.base44.com/images/public/6ab545b1d7157c5744f63a53/d9c9ea1fb_generated_101218f0.jpg", videoUrl: "https://www.youtube.com/watch?v=KCv20iDM_UA", type: "vertical" }
 ];
